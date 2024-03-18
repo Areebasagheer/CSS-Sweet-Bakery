@@ -1,0 +1,509 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'Roboto-Regular.ttf';
+    src: url('Roboto-Regular.ttf');
+}
+body{
+    background-color: white;
+    font-family: "Roboto-Regular.ttf";
+}
+header{
+    margin-left: 140px;
+    margin-right: 180px;
+} 
+.container{
+    width: 100%;
+    height: 150px;
+   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.a{
+    width: 150px;
+    height: 70%;
+}
+.a img{
+   width: 90%;
+}
+.a img:hover{
+    cursor: pointer;
+}
+.b ul{
+    width: 300px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 17px;
+    flex-wrap: wrap;
+    font-weight: lighter; 
+}
+.b li a{
+    text-decoration: none;
+    color: black;
+}
+.b li a:hover{
+    cursor: pointer;
+    text-decoration: underline  #5fcac7;
+}
+.ab a button{
+    background-color: #5fcac7 ;
+    color: white;
+    padding: 14px 0px 14px 0px;
+    height: 40px;
+    font-weight: normal;
+    border-radius: 40px;
+    width: 140px;
+    font-size: 15px;
+    margin-top: 4px;
+    border: none;
+}
+.logo ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 50px;
+    flex-flow: row wrap;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;   
+}
+.logo a i:hover{
+    cursor: pointer;
+    text-decoration: underline  #5fcac7;
+}
+.bg img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.6;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%; 
+    height: 100%; 
+}
+.content{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    z-index: 1;
+    margin: 120px 20px 0px 140px; 
+}
+.content h1{
+    text-decoration-color: black;
+    width: 100%;
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+}
+.content p{
+    color: black;
+    width: 50%;
+    margin-top: 40px;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 35px;
+    font-family: "Roboto-Regular.ttf";
+}
+.content button{
+    background-color: #5fcac7 ;
+    color: white;
+    padding: 12px 10px 17px 10px;
+    height: 40px;
+    font-weight: normal;
+    border-radius: 30px;
+    width: 170px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+.first{
+    width: 100%;
+    height: 160rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first h1{
+    text-align: center;
+    margin-top: -150px;
+    font-size: 60px;
+    font-weight: bolder;
+    color:black;
+}
+.sec1{
+    width: 80%;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 400px 0px 400px;
+}
+.sec{
+    display: flex;
+}
+.sec .i{
+    margin: 0px 40px 0px 60px; 
+}
+.sec .j{
+    margin: 250px -250px 0px -300px;
+}
+.sec1 img{
+    border-radius: 25px;
+    width: 235px;
+}
+.sec1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.second{
+    background-color: #7DD3D0;
+    height: 570px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1100px;
+}
+.sub1{
+    width: 50%;
+    border: 3px solid rgb(225, 255, 225);
+    border-radius: 20px;
+    padding: 30px 120px 0px 120px;
+    height: 400px;
+    color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub1 h1{
+    font-size: 40px;
+    font-family: 'Roboto-Regular.ttf';
+}
+.sub2 i{
+    font-size: 70px;
+}
+.sub1>div{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0px 20px 0px;
+}
+.sub1 p{
+    line-height: 40px;
+}
+.sub1 button{
+    border: 2px solid white;
+    background-color: #7DD3D0;
+    padding: 15px 0px 15px 0px;
+    border-radius: 30px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+.sub1 button:hover{
+    cursor: pointer; 
+    background-color: azure;
+    color: gray;
+}
+.third{
+    width: 100%;
+    height: 200px;
+}
+.third i{
+    width: 100px;
+    height: 50px;
+    font-size: 60px;
+    margin: 90px 90px 20px 650px;
+}
+.third h1{
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(112, 112, 112);
+}
+.three1{
+    width: 77%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 500px 90px 0px 150px;
+}
+.three1 img{
+    width: 220px;
+    border-radius: 20px;
+    margin: -900px 0px 400px 0px;
+    padding-bottom: 60%;
+}
+.three1 img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.fourth{
+   
+    position: relative;
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+}
+.four1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.four2{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    padding-top: 150%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+.four2 i{
+    font-size: 80px;
+    padding: 10px 0px 80px 0px;
+}
+.four2 h1{
+    padding: -5px 0px 70px 0px;
+    font-size: 40px;
+    font-family: 'Roboto-Regular.ttf';
+}
+.four2 span{
+    font-weight: bold;
+    color: #3b3b3b;
+    margin-top: -80px;
+}
+.four2>div{
+    width: 200px;
+    height: 200px;
+    margin: 70px 0px 0px 80px;
+}
+.four2>div img{
+    width: 150px;
+    height: 140px;
+    border-radius: 60%;
+    margin-left: -50px;
+    margin-top: -75px;
+}
+.four2>div p{
+    font-size: 24px;
+    font-weight: bold;
+    color:  #3b3b3b;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+.fifth{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(229, 146, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifth>div h1{
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.fifth1{
+    width: 70%;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fifth1>div{
+    width: 45%;
+    height: 250px;
+    margin: 10px;
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 17px;
+    font-weight: normal;
+}
+.five>div{
+    display: flex;
+    flex: row wrap;
+    width: 160px;
+    height: 50px;
+    margin-left: 20px;
+    color: white;
+}
+.five>div img{
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+}
+.sixth{
+    width: 100%;
+    height: 910px;
+}
+.sixth h1{
+    font-size: 40px;
+    padding: 60px 0px 10px 220px;
+}
+.sixth1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 780px;
+}
+.sixth2{
+    margin: 10px 10px 10px 160px;
+    width: 40%;
+    height: 760px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.sixth3{
+    background-color: whitesmoke;
+    margin: 10px;
+    width: 30%;
+    height: 230px;
+    margin: 70px 0px 0px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 30px 00px 10px 20px;
+    line-height: 40px;
+    font-family:  'Roboto-Regular.ttf';
+}
+.sixth3 span{
+    color: #5fcac7;
+
+}
+.seventh{
+    width: 100%;
+    height: 500px;
+    background-color: #808080 ;
+}
+.seventh>div{
+    margin: 0px 0px 10px 250px;
+    padding: 90px 0px 0px 0px;
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.seventh h1{
+    font-size: 60px;
+    margin: 0px 0px 60px 0px;
+    font-family:  'Roboto-Regular.ttf';
+}
+.seventh input{
+    width: 210px;
+    padding: 20px 29px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.seventh button{
+    border: 0px solid;
+    background-color: #7DD3D0;
+    padding: 15px 0px 15px 0px;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 19px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+.seventh button:hover{
+    background-color: #59b6b3;
+    cursor: pointer;
+}
+.seventh p{
+    line-height: 45px;
+    margin: 60px 0px 0px 0px;
+}
+.seventh i{
+    width: 50px;
+    height: 200px;
+    font-size: 20px;
+}
+.seventh i:hover{
+    cursor: pointer;
+}
+.eight{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+}
+.eight>div{
+    width: 320px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.eight>div p{
+    font-size: 17px;
+    font-weight: normal;
+    word-spacing: 20px;
+    margin-top: 40px;
+}
+.eight>div img{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.eight span{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 80px;
+    word-spacing: normal;
+    
+}
+.eight span:hover {
+    cursor: pointer;
+}
+.nine{
+    background-color: #000000;
+    width: 100%;
+    color: white;
+    height: 100px;
+}
+.nine p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 35px;
+}
